@@ -1,0 +1,16 @@
+form{
+    display: felx;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 350px;
+    }
+    .titulo{
+font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #00bfff;
+    }
