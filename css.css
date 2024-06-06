@@ -1,8 +1,9 @@
 form{
-    display: felx;
+    display: flex;
     flex-direction: column;
-    gap: 30px;
-    max-width: 350px;
+    gap: 10px;
+    max-width: 400px;
+    
     }
     .titulo{
 font-size: 28px;
@@ -14,3 +15,13 @@ font-size: 28px;
   padding-left: 30px;
   color: #00bfff;
     }
+    @keyframes pulse {
+        from {
+          transform: scale(0.9);
+          opacity: 1;
+        }
+      
+        to {
+          transform: scale(1.8);
+          opacity: 0;
+        }}
