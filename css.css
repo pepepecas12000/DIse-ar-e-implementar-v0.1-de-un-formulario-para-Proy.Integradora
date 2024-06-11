@@ -1,9 +1,15 @@
 form{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 10px;
     max-width: 400px;
     
+=======
+    gap: 0px;
+    max-width: 400px;
+    border: 1px solid black;
+>>>>>>> 900615a502203ba8ffe720c8ed1c9d8c1e2b056e
     }
     .titulo{
 font-size: 28px;
@@ -15,6 +21,7 @@ font-size: 28px;
   padding-left: 30px;
   color: #00bfff;
     }
+<<<<<<< HEAD
     @keyframes pulse {
         from {
           transform: scale(0.9);
@@ -25,3 +32,9 @@ font-size: 28px;
           transform: scale(1.8);
           opacity: 0;
         }}
+=======
+    hr{
+    border: 1px solid black;
+    margin: 1px;
+    }
+>>>>>>> 900615a502203ba8ffe720c8ed1c9d8c1e2b056e
