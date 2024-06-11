@@ -2,20 +2,70 @@ form{
     display: flex;
     flex-direction: column;
     gap: 0px;
-    max-width: 400px;
+    max-width: 420px;
     border: 1px solid black;
+    gap: 10px;
+    padding: 30px 30px 20px 30px;
+  background-color: rgb(110, 201, 115);
+    margin-top: 60px;
+    border-radius: 15px;
+
     }
     .titulo{
-font-size: 28px;
+font-size: xx-large;
   font-weight: 600;
+  font-family:  Montserrat, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji" !important;;
   letter-spacing: -1px;
   position: relative;
   display: flex;
   align-items: center;
-  padding-left: 30px;
-  color: #00bfff;
+  margin: 4 4 4 4;
+  color: #067c29;
+  display: flex;
+  justify-content: center;
     }
     hr{
     border: 1px solid black;
     margin: 1px;
     }
+    
+    .input{
+      border-radius: 5px;
+      width: 100%;
+      position: relative;
+      height: 40px;
+      background-color: rgb(181, 234, 209);
+      font-size: 19px;
+      font-family:  Montserrat, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji" !important;
+      color: black;
+    }
+   
+
+    .subt{
+      margin-bottom: 4px;
+      margin-top: 4px;
+    }
+    .juntos{
+      display: flex;
+      width: 100%;
+      gap:6px;
+      
+      flex-direction: row;
+    }
+    .juntos input{
+      width: 100%;
+    }
+    
+  
+p{
+  font-family:  Montserrat, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji" !important;
+  font-size: x-large;
+}
+body{
+  background-image: url(Imagenes/cute-pet-collage-isolated.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}

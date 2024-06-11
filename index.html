@@ -4,22 +4,24 @@
     </head>
     <body>
         <form action="">
+            
             <p class="titulo">Registra a tu mascota</p>
             <hr>
-        <label>
+            <div class="juntos">
+        
             <input type="text" class="input" placeholder="Microchip">
-        </label>
+        
 
-        <label>
+        
             <input type="text" class="input" placeholder="Nombre de tu mascota">
-        </label>
-
+        
+        </div>
         <label>
-            <p>Seleciona la raza</p>
-        <select name="pets" id="pet-select" title="Raza del animal">
+            <p class="subt">Especie del animal</p>
+        <select name="pets" class="input" id="pet-select" title="Raza del animal">
             <option hidden>--Especia del animal--</option>
      <option value="perro">Perro</option>
-         <option value="gato">Garo</option>
+         <option value="gato">Gato</option>
     <option value="hamster">Hamster</option>
      <option value="perico">Perico</option>
      <option value="araña">Araña</option>
@@ -27,26 +29,44 @@
     </select>
         </label>
 
-        <label>
-        <textarea name="DescripcionColor" id="col1" cols="20" rows="10" placeholder="Descripcion del Color"></textarea>
-        
+        <label >
+            <p class="subt">Raza del animal</p>
+            <select name="pets" class="input" id="pet-select" title="Raza del animal">
+                <option hidden>--Razas de animales--</option>
+         <option value="Bulldog">Bulldog</option>
+             <option value="Siames">Siames</option>
+        <option value="Sirio">Sirio</option>
+         <option value="Opalino">Opalino</option>
+         <option value="Viuda negra">Viuda negra</option>
+         <option value="pez dorado">Pez dorado</option>
+        </select>
         </label>
 
         <label for="">
-            <select name="Sexo" id="sex" >
+            <p class="subt">Sexo</p>
+            <select name="Sexo" class="input" id="sex" >
                 <option value="" hidden>Selecciona el sexo</option>
                 <option value="1">Macho</option>
                 <option value="2">Hembra</option>
             </select>
         </label>
 
+        <label>
+            <p class="subt">Descripcino del color</p>
+        <textarea class="input" name="DescripcionColor" id="col1" cols="20" rows="10" placeholder="Descripcion"></textarea>
+        
+        </label>
+
+        
+
         <label for="fecha">
-            <p>Fecha de nacimiento</p>
-        <input type="date">
+            <p class="subt" >Fecha de nacimiento</p>
+        <input type="date" class="input">
         </label>
 
         <label for="Señas">
-        <textarea name="Descripcion" id="des" cols="30" rows="10" placeholder="Señas particulares"></textarea>
+            <p class="subt">Particularidades</p>
+        <textarea name="Descripcion" id="des" class="input" cols="30" rows="10" placeholder="Señas particulares"></textarea>
         </label>
 
         <label for="">
