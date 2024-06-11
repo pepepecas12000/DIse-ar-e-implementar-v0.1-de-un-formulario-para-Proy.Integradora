@@ -1,8 +1,9 @@
 form{
-    display: felx;
+    display: flex;
     flex-direction: column;
-    gap: 30px;
-    max-width: 350px;
+    gap: 0px;
+    max-width: 400px;
+    border: 1px solid black;
     }
     .titulo{
 font-size: 28px;
@@ -13,4 +14,8 @@ font-size: 28px;
   align-items: center;
   padding-left: 30px;
   color: #00bfff;
+    }
+    hr{
+    border: 1px solid black;
+    margin: 1px;
     }
