@@ -1,7 +1,4 @@
-header{
-  
-  
-}
+
 form{
     display: flex;
     flex-direction: column;
@@ -71,7 +68,8 @@ body{
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+  flex-direction: column;
 }
 .submit{
   border-radius: 8px;
@@ -84,4 +82,10 @@ body{
 }
 .submit:hover{
   background-color: azure;
+}
+h3{
+  font-size: 40px;
+  color: black;
+  background-color: blanchedalmond;
+  padding: 4px;
 }
