@@ -31,6 +31,7 @@ font-size: xx-large;
     
     .input{
       border-radius: 5px;
+      border: none;
       width: 100%;
       position: relative;
       height: 40px;
